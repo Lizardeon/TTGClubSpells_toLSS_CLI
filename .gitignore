@@ -1,5 +1,8 @@
 venv/
 .venv/
 __pycache__/
+.donttouch/
 *.json
-.donttouch
+LICENSE
+.git
+.gitignore
