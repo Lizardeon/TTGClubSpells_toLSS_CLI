@@ -1,6 +1,6 @@
 # TTGClub Spells to LSS CLI Parser
 
-CLI-инструмент на Python для парсинга заклинаний D&D 5.5e с сайта [ttg.club](https://new.ttg.club) и их конвертации в форматы **LSS JSON** (совместимый с конструкторами персонажей/VTT) и чистый **Markdown**.
+CLI-инструмент на Python для парсинга заклинаний D&D 5.5e с сайта [new.ttg.club](https://new.ttg.club) и их конвертации в форматы **LSS JSON** (совместимый с конструкторами персонажей/VTT) и чистый **Markdown**.
 
 ## 🚀 Возможности
 
