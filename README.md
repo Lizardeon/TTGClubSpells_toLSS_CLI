@@ -60,19 +60,19 @@ pip install -r requirements.txt
 1. **Парсинг одного заклинания (по умолчанию в формат LSS JSON):**
 
 ```
-python TTGClub_parse_toLSS_CLI.py -s cure-wounds-phb
+python ttgclubAPI_Spells_toLSS_CLI.py -s cure-wounds-phb
 ```
 
 2. **Парсинг списка заклинаний из файла с объединением в один JSON-массив:**
 
 ```
-python TTGClub_parse_toLSS_CLI.py -f list1.txt -fmt json-array -o ./output
+python ttgclubAPI_Spells_toLSS_CLI.py -f list1.txt -fmt json-array -o ./output
 ```
 
 3. **Сохранение заклинания во всех доступных форматах (Markdown + JSON):**
 
 ```
-python TTGClub_parse_toLSS_CLI.py -s shield-of-faith-phb -fmt all
+python ttgclubAPI_Spells_toLSS_CLI.py -s shield-of-faith-phb -fmt all
 ```
 
 ### Доступные аргументы:
@@ -84,7 +84,7 @@ python TTGClub_parse_toLSS_CLI.py -s shield-of-faith-phb -fmt all
 
 ## 📝 Структура проекта
 ```text
-├── TTGClub_parse_toLSS_CLI.py  # Основной скрипт парсера
+├── ttgclubAPI_Spells_toLSS_CLI.py  # Основной скрипт парсера
 ├── list1.txt                   # Пример списка заклинаний (Источник 2)
 ├── list2.txt                   # Пример списка заклинаний (Источник 1)
 └── requirements.txt            # Список зависимостей проекта
